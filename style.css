@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(40, 44, 54);
+}
+
+.intro {
+    color: white;
+    text-align: center;
+    margin: 50px 0;
+}
+
+main {
+    display: flex;
+}
+
+.movie-container {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.movie {
+    margin: 0 auto;
+    width: 1000px;
+    height: 600px;
+    border: 2px solid rgb(228, 228, 228);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.ranking {
+    color: white;
+    /* padding: 0.2em 0em 0em 0.4em; */
+    text-align: center;
+    width: 60px;
+    background-color: rgba(201, 201, 201, 0.219);
+    border-bottom-right-radius: 8px;
+}
+
+.title {
+    color: white;
+}
+
+.rating {
+    color: white;
+    background-color: rgb(65, 65, 65);
+}
+
+.star {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.movie-info {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+    height: 100%;
+    width: 300px;
+}
+
+.movie-info .ranking {
+    margin-bottom: 50px;
+}
+
+.movie-info .title {
+    text-align: center;
+}
+
+.movie-info .cover {
+    margin: 1em auto 2em auto;
+    width: 200px;
+    /* margin: 0 auto; */
+}
+
+.movie-info .rating {
+    text-align: center;
+}
+
+.thoughts {
+    color: white;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.082);
+    padding: 1em 1em 0em 1em;
+}
+
+.thoughts ul {
+    list-style-type: none;
+}
+
+.thoughts li {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+#movie1 {
+    background-image: url("/MOVIE_BACKGROUNDS/LostInTranslation-BLUR.jpg");
+    background-size: cover;
+}
+
+#movie2 {
+    background-image: url("/MOVIE_BACKGROUNDS/TheBreakfastClub-BLUR.jpg");
+    background-size: cover;
+}
+
+#movie3 {
+    background-image: url("/MOVIE_BACKGROUNDS/SonicTheHedgehog_BLUR.jpg");
+    background-size: cover;
+}
+
+#movie4 {
+    background-image: url("/MOVIE_BACKGROUNDS/NoHardFeelings_BLUR.jpg");
+    background-size: cover;
+}
+
+#movie5 {
+    background-image: url("/MOVIE_BACKGROUNDS/CrazyStupidLove_BLUR.jpg");
+    background-size: cover;
+}
+
+#movie6 {
+    background-image: url("/MOVIE_BACKGROUNDS/Spiderman_BLUR.jpg");
+    background-size: cover;
+}
+
+#movie7 {
+    background-image: url("/MOVIE_BACKGROUNDS/Soul_BLUR.jpg");
+    background-size: cover;
+}
+
+#movie8 {
+    background-image: url("/MOVIE_BACKGROUNDS/InsideOut_BLUR.jpg");
+    background-size: cover;
+}
+
+#movie9 {
+    background-image: url("/MOVIE_BACKGROUNDS/TheSocialNetwork_BLUR.jpg");
+    background-size: cover;
+}
+
+#movie10 {
+    background-image: url("/MOVIE_BACKGROUNDS/AQuietPlace_BLUR.jpg");
+    background-size: cover;
+}
+
+#movie11 {
+    background-image: url("/MOVIE_BACKGROUNDS/TheMenu_BLUR.jpg");
+    background-size: cover;
+}
+
+#movie12 {
+    background-image: url("/MOVIE_BACKGROUNDS/Superbad_BLUR.jpg");
+    background-size: cover;
+}
+
+#movie13 {
+    background-image: url("/MOVIE_BACKGROUNDS/LaLaLand_BLUR.jpg");
+    background-size: cover;
+}
+
+#movie14 {
+    background-image: url("/MOVIE_BACKGROUNDS/500DaysOfSummer_BLUR.jpg");
+    background-size: cover;
+}
+
+#movie15 {
+    background-image: url("/MOVIE_BACKGROUNDS/FightClub_BLUR.jpg");
+    background-size: cover;
+}
+
+#movie16 {
+    background-image: url("/MOVIE_BACKGROUNDS/AnotherRound_BLUR.jpg");
+    background-size: cover;
+}
+
+#movie17 {
+    background-image: url("/MOVIE_BACKGROUNDS/ForrestGump_BLUR.jpg");
+    background-size: cover;
+}
+
+#movie18 {
+    background-image: url("/MOVIE_BACKGROUNDS/AmericanPsycho_BLUR.jpg");
+    background-size: cover;
+}
+
+#movie19 {
+    background-image: url("/MOVIE_BACKGROUNDS/Moonlight_BLUR.jpg");
+    background-size: cover;
+}
+
+#movie20 {
+    background-image: url("/MOVIE_BACKGROUNDS/BackToTheFuture_BLUR.jpg");
+    background-size: cover;
+}
+
+#movie21 {
+    background-image: url("/MOVIE_BACKGROUNDS/MemoriesOfMurder_BLUR.jpg");
+    background-size: cover;
+}
+
+#movie22 {
+    background-image: url("/MOVIE_BACKGROUNDS/TheShawshankRedemption_BLUR.jpg");
+    background-size: cover;
+}
+
+#movie23 {
+    background-image: url("/MOVIE_BACKGROUNDS/MysteriousSkin_BLUR.jpg");
+    background-size: cover;
+}
+
+#movie24 {
+    background-image: url("/MOVIE_BACKGROUNDS/BeforeSunrise_BLUR.jpg");
+    background-size: cover;
+}
+
+#movie25 {
+    background-image: url("/MOVIE_BACKGROUNDS/TheTrumanShow_BLUR.jpg");
+    background-size: cover;
+}
+
+#movie26 {
+    background-image: url("/MOVIE_BACKGROUNDS/CityOfGod_BLUR.jpg");
+    background-size: cover;
+}
+
+#movie27 {
+    background-image: url("/MOVIE_BACKGROUNDS/PerfectDays_BLUR.jpg");
+    background-size: cover;
+}
+
+#movie28 {
+    background-image: url("/MOVIE_BACKGROUNDS/EternalSunshine_BLUR.jpg");
+    background-size: cover;
+}
+
+#movie29 {
+    background-image: url("/MOVIE_BACKGROUNDS/GoodWillHunting_BLUR.jpg");
+    background-size: cover;
+}
+
+#movie30 {
+    background-image: url("/MOVIE_BACKGROUNDS/PastLives_BLUR.jpg");
+    background-size: cover;
+}
