@@ -85,6 +85,7 @@ main {
     padding: 0.5em 0.5em 0.1em 0.5em;
     width: 90%;
     margin: 1em auto 1em auto;
+    font-size: 1.1em;
     font-family: "Noto Serif", serif;
     /* font-optical-sizing: auto; */
 }
@@ -179,6 +180,7 @@ main {
     .thoughts {
         padding: 1.5em 1.5em 1em 1.5em;
         margin: 0 auto;
+        font-size: 1.1em;
     }
 
     #movie1 {
@@ -230,6 +232,10 @@ main {
 #movie6 {
     background-image: url("/MOVIE_BACKGROUNDS/Spiderman_BLUR.jpg");
     background-size: cover;
+}
+
+#movie6 ul img {
+    height: 15px;
 }
 
 #movie7 {
