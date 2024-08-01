@@ -47,12 +47,21 @@ main {
 }
 
 .ranking {
-    background-color: rgba(201, 201, 201, 0.219);
+    background-color: rgba(54, 54, 54, 0.479);
     border-bottom-right-radius: 8px;
     width: 60px;
+    margin-bottom: 10px;
 }
 
-.title {}
+.title {
+    width: 95%;
+    margin: 0 auto;
+    font-family: "Roboto Slab", serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 700;
+    background-color: rgba(54, 54, 54, 0.479);
+    border-radius: 8px;
+}
 
 .cover {
     width: 200px;
@@ -68,11 +77,14 @@ main {
 
 .thoughts {
     color: white;
-    background-color: rgba(255, 255, 255, 0.082);
+    /* background-color: rgba(255, 255, 255, 0.082); */
+    background-color: rgba(54, 54, 54, 0.623);
     border-radius: 8px;
     padding: 0.5em 0.5em 0.1em 0.5em;
     width: 90%;
     margin: 1em auto 1em auto;
+    font-family: "Noto Serif", serif;
+    /* font-optical-sizing: auto; */
 }
 
 .thoughts ul {
@@ -134,14 +146,32 @@ main {
     .movie-info {
         height: 100%;
         padding: 0;
+        max-width: 350px;
     }
 
     .ranking {
         margin-bottom: 50px;
     }
 
+    .title {
+        max-width: 340px;
+    }
+
     .cover {
         margin: 1em auto 2em auto;
+    }
+
+    .thoughts {
+        padding: 1.5em 1.5em 1em 1.5em;
+        margin: 0 auto;
+    }
+
+    #movie22 .ranking {
+        margin-bottom: 7px;
+    }
+
+    #movie28 .ranking {
+        margin-bottom: 7px;
     }
 }
 
