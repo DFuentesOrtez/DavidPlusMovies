@@ -98,6 +98,24 @@ main {
     margin-bottom: 10px;
 }
 
+.spoilerWarning {
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+.spoilerWarning:hover {
+    color: rgb(185, 48, 48);
+    cursor: pointer;
+}
+
+.mySpoiler {
+    display: none;
+}
+
+.mySpoiler.open {
+    display: block;
+}
+
 @media (min-width: 600px) {}
 
 @media (min-width: 768px) {
