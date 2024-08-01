@@ -73,6 +73,8 @@ main {
 .star {
     width: 200px;
     margin: 0 auto;
+    background-color: rgba(54, 54, 54, 0.479);
+    border-radius: 8px;
 }
 
 .thoughts {
