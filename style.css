@@ -8,85 +8,71 @@ body {
 }
 
 .intro {
+    margin-top: 3.1em;
+    margin-bottom: 3.1em;
+}
+
+.intro h1 {
     color: white;
     text-align: center;
-    margin: 50px 0;
+}
+
+.intro h2 {
+    color: white;
+    text-align: center;
 }
 
 main {
-    display: flex;
+    /* display: flex; */
 }
 
 .movie-container {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-bottom: 0.8em;
 }
 
 .movie {
+    width: 93%;
+    /* height: 800px; */
     margin: 0 auto;
-    width: 1000px;
-    height: 600px;
     border: 2px solid rgb(228, 228, 228);
     border-radius: 8px;
-    display: flex;
-    align-items: center;
 }
 
 .movie-info {
+    width: 100%;
+    color: white;
+    text-align: center;
     display: flex;
     flex-direction: column;
-    /* justify-content: start; */
-    height: 100%;
-    width: 300px;
 }
 
 .ranking {
-    color: white;
-    /* padding: 0.2em 0em 0em 0.4em; */
-    text-align: center;
-    width: 60px;
     background-color: rgba(201, 201, 201, 0.219);
     border-bottom-right-radius: 8px;
+    width: 60px;
 }
 
-.title {
-    color: white;
+.title {}
+
+.cover {
+    width: 200px;
+    margin: 0.5em auto 0.5em auto;
 }
 
-.rating {
-    color: white;
-    background-color: rgb(65, 65, 65);
-}
+/* .rating {} */
 
 .star {
     width: 200px;
     margin: 0 auto;
 }
 
-.movie-info .ranking {
-    margin-bottom: 50px;
-}
-
-.movie-info .title {
-    text-align: center;
-}
-
-.movie-info .cover {
-    margin: 1em auto 2em auto;
-    width: 200px;
-    /* margin: 0 auto; */
-}
-
-.movie-info .rating {
-    text-align: center;
-}
-
 .thoughts {
     color: white;
-    width: 500px;
     background-color: rgba(255, 255, 255, 0.082);
-    padding: 1em 1em 0em 1em;
     border-radius: 8px;
+    padding: 0.5em 0.5em 0.1em 0.5em;
+    width: 90%;
+    margin: 1em auto 1em auto;
 }
 
 .thoughts ul {
@@ -94,52 +80,71 @@ main {
 }
 
 .thoughts li {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {}
+
+@media (min-width: 768px) {
+    .movie {
+        display: flex;
+        align-items: center;
+    }
+
+    .movie-info {
+        padding-bottom: 30px;
+        width: 45%;
+        max-width: 300px;
+    }
+
+    .title {
+        margin-top: 10px;
+    }
+
+    .thoughts {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .movie {
+        max-width: 1000px;
+    }
+
+    .movie-info {
+        width: 40%;
+        max-width: 300px;
+    }
+}
+
+@media (min-width: 1200px) {
     main {
-        flex-direction: column;
-        /* width: 350px; */
+        display: flex;
     }
 
     .movie-container {
-        margin-bottom: 10px;
+        margin: 0em 0.7em 0em 0.7em;
     }
 
     .movie {
-        width: 350px;
-        height: 900px;
-        flex-direction: column;
+        width: 1000px;
+        height: 600px;
     }
-}
 
-@media (max-width: 600px) {
     .movie-info {
-        width: 100%;
-        height: 475px;
+        height: 100%;
+        padding: 0;
+    }
+
+    .ranking {
+        margin-bottom: 50px;
+    }
+
+    .cover {
+        margin: 1em auto 2em auto;
     }
 }
 
-@media (max-width: 600px) {
-    .movie-info .cover {
-        margin: 0.5em auto 0.5em auto;
-    }
-}
-
-@media (max-width: 600px) {
-    .movie-info .ranking {
-        margin-bottom: 0px;
-    }
-}
-
-@media (max-width: 600px) {
-    .thoughts {
-        width: 90%;
-        margin-top: 0.5em;
-        padding: 0.5em 0.5em 0em 0.5em;
-    }
-}
 
 
 
